@@ -1,0 +1,14 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "comma-dangle": [2, "never"],
+    "no-param-reassign": [2, { "props": false }],
+    "prefer-const": 0,
+    "no-var": 0,
+    "prefer-arrow-callback": 0,
+    "func-names": 0,
+    "space-before-function-paren": [2, "never"],
+    "no-console": 0,
+    "object-shorthand": 0
+  }
+}

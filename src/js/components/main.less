@@ -1,0 +1,67 @@
+.main-footer{
+  position: fixed;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  bottom: 0;
+  left: 0;
+  background-color: grey;
+  a{
+    line-height: 4rem;
+  }
+}
+// .example-enter {
+//   opacity: 0.01;
+//   transition: opacity .5s ease-in;
+// }
+
+// .example-enter.example-enter-active {
+//   opacity: 1;
+// }
+
+// .example-leave {
+//   opacity: 1;
+//   transition: opacity .5s ease-in;
+// }
+
+// .example-leave.example-leave-active {
+//   opacity: 0;
+// }
+.example-enter {
+  transition: left 0.5s ease-in;
+  position: fixed;
+  top: 0;
+  left: 100%;
+}
+
+.example-enter.example-enter-active {
+  left: 0;
+}
+
+.example-leave {
+  left: 0;
+  transition: left 0.5s ease-in;
+}
+
+.example-leave.example-leave-active {
+  left: -100%;
+}
+.example2-enter {
+  transition: left 0.5s ease-in;
+  position: fixed;
+  top: 0;
+  left: -100%;
+}
+
+.example2-enter.example2-enter-active {
+  left: 0;
+}
+
+.example2-leave {
+  left: 0;
+  transition: left 0.5s ease-in;
+}
+
+.example2-leave.example2-leave-active {
+  left: 100%;
+}
